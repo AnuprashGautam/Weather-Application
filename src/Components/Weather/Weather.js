@@ -19,7 +19,7 @@ const Weather = () => {
   const [weatherIcon, setWeatherIcon] = useState(clear_icon);
   const [weatherData, setWeatherData] = useState(null);
 
-  // Object mapping weather icon codes to corresponding icons
+  // Object mapping weather icon codes to corresponding icons.
   const allIcons = {
     "01d": clear_icon,
     "01n": clear_icon,
