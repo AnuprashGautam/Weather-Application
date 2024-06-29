@@ -9,7 +9,7 @@
     
 # Visuals
 
-- Here are some screenshots of the websites:
+- Here are some screenshots of the website:
   
 <div style="display: flex; justify-content: space-between;">
     <img src="./src/Assets/Screenshot1.png" alt="Screenshot1" style="width: 100px; height: 180px;">
