@@ -9,10 +9,14 @@
     
 # Visuals
 
-Here are some screenshots of the websites:
-<img src=".src/Assets/Screenshot1.png" alt="Screenshot1" width="50px" height="50px"/>
-<img src=".src/Assets/Screenshot1.png" alt="Screenshot1" width="50px" height="50px"/>
-<img src=".src/Assets/Screenshot1.png" alt="Screenshot1" width="50px" height="50px"/>
+- Here are some screenshots of the websites:
+  
+<div style="display: flex; justify-content: space-between;">
+    <img src="./src/Assets/Screenshot1.png" alt="Screenshot1" style="width: 100px; height: 180px;">
+    <img src="./src/Assets/Screenshot2.png" alt="Screenshot2" style="width: 320px; height: 180px;">
+    <img src="./src/Assets/Screenshot3.png" alt="Screenshot3" style="width: 320px; height: 180px;">
+</div>
+
 
 # Getting Started with Create React App
 
