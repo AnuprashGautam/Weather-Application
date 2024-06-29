@@ -2,7 +2,7 @@
 
 
 - This is a weather forecasting website made with the help of HTML, CSS, and JSX.
-- Tools used to create this awesome website: VS Code, React, Postman, and Vercel (in deploying).
+- Tools used to create this awesome website: VS Code, React, Node, Postman, and Vercel (in deploying).
   
 - This website primarily use two API, from [Open Weather](https://weather-application-nu-lemon.vercel.app/):
   - One for fetching the latitudes and logitudes of a city.
