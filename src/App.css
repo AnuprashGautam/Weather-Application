@@ -1,0 +1,37 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Resetting default styles and setting global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; /* Setting default font family */
+}
+
+/* Ensuring full viewport height and removing any body margin/padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Preventing scroll bars */
+}
+
+/* Styling for the video container */
+.video-container {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+}
+
+/* Styling for the background video */
+#background-video {
+    position: absolute;
+    top: 50%; /* Centering vertically */
+    left: 50%; /* Centering horizontally */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Ensuring video covers entire area */
+    transform: translate(-50%, -50%); /* Centering the video using transform */
+    z-index: -1; /* Placing behind other content */
+}

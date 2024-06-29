@@ -1,0 +1,115 @@
+/* Resetting default styles and ensuring box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+/* Styling for the main container */
+.container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    opacity: 0.8; /* Reduced opacity for background effect */
+}
+
+/* Styling for the weather information container */
+.weather {
+    padding: 20px; /* Adjusted padding */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    background-image: linear-gradient(45deg, #6d8783, #3c354e); /* Gradient background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space evenly between elements */
+    align-items: center;
+    width: fit-content; /* Adjusted width for better responsiveness */
+    max-width: 85vw; /* Maximum width to keep it compact */
+    height: fit-content;
+    max-height: 650px; /* Maximum height to prevent overflow */
+    color: white; /* Ensure text color is readable against the background */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+/* Styling for the title section */
+.title {
+    text-align: center; /* Center align the text */
+    margin-bottom: 20px; /* Spacing below the title */
+}
+
+/* Styling for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px; /* Spacing between elements */
+    margin-bottom: 10px; /* Spacing below the search bar */
+    width: 100%; /* Use full width */
+}
+
+.search-bar input {
+    height: 40px; /* Set input height */
+    border: none; /* Remove default border */
+    outline: none; /* Remove outline on focus */
+    border-radius: 20px; /* Rounded corners for input */
+    padding-left: 25px; /* Padding for text inside input */
+    color: #626262; /* Text color */
+    background: #ebfffc; /* Light background color */
+    font-size: 18px; /* Font size */
+    flex-grow: 1; /* Allow input to grow and take available space */
+    width: 80%; /* Use 80% of available width */
+}
+
+.search-bar img {
+    width: 40px; /* Set image width */
+    padding: 10px; /* Adjusted padding */
+    border-radius: 50%; /* Circular border radius */
+    background: #ebfffc; /* Background color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Styling for weather information text */
+.weather-info {
+    text-align: center; /* Center align text */
+    margin-bottom: 10px; /* Spacing below weather info */
+}
+
+/* Styling for weather icon */
+.weather-icon {
+    width: 80px; /* Adjust size for better visibility */
+    margin: 20px 0; /* Margin around the weather icon */
+}
+
+/* Styling for weather data columns */
+.weather-data {
+    display: flex;
+    justify-content: space-between; /* Space evenly between columns */
+    width: 100%; /* Use full width */
+}
+
+.col1, .col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items in columns */
+    gap: 8px; /* Spacing between elements */
+}
+
+.weather-data img {
+    width: 30px; /* Set image width */
+}
+
+.col1, .col2 div {
+    text-align: left; /* Left align text inside columns */
+}
+
+/* Styling for temperature text */
+.temperature {
+    font-size: 2em; /* Large font size */
+    margin: 10px 0; /* Margin around temperature text */
+}
+
+/* Styling for location text */
+.location {
+    font-size: 1.2em; /* Medium font size */
+    margin: 10px 0; /* Margin around location text */
+}
