@@ -21,6 +21,8 @@
 
 Visit Website here: [Weather Application - Anuprash Gautam](https://weather-application-nu-lemon.vercel.app/)
 
+# Note: Don't add `homepage` in `package.json`, if you're deploying this project on [vercel](https://vercel.com/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
