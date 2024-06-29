@@ -1,3 +1,19 @@
+# Weather Application <img src="./src/Assets/cloud.png" alt="Logo" width="50px" height="50px"/>
+
+
+- This is a weather forecasting website made with help of HTML, CSS, and JSX.
+- Tools used to create this awesome website: VS Code, React, Postman, and Github Pages (in deploying).
+- This website primarily use two API, from [Open Weather](https://openweathermap.org/api):
+  - One for fetching the latitudes and logitudes of a city.
+  - Other one for fetching the weather data based on latitude and longitude from previous API.
+    
+# Visuals
+
+Here are some screenshots of the websites:
+<img src=".src/Assets/Screenshot1.png" alt="Screenshot1" width="50px" height="50px"/>
+<img src=".src/Assets/Screenshot1.png" alt="Screenshot1" width="50px" height="50px"/>
+<img src=".src/Assets/Screenshot1.png" alt="Screenshot1" width="50px" height="50px"/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
