@@ -3,7 +3,7 @@
 
 - This is a weather forecasting website made with the help of HTML, CSS, and JSX.
 - Tools used to create this awesome website: VS Code, React, Postman, and Github Pages (in deploying).
-- This website primarily use two API, from [Open Weather](https://openweathermap.org/api):
+- This website primarily use two API, from [Open Weather](https://weather-application-nu-lemon.vercel.app/):
   - One for fetching the latitudes and logitudes of a city.
   - Other one for fetching the weather data based on latitude and longitude from previous API.
     
